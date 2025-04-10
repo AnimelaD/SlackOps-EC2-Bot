@@ -13,13 +13,14 @@ A Slack bot that interacts with AWS EC2 instances, checking their status through
 
 1. Clone the repository
    git clone https://github.com/AnimelaD/SlackOps-EC2-Bot
+and change directory to 
    cd SlackOps-EC2-Bot
-2. Set up a Python virtual environment
+3. Set up a Python virtual environment
    python3 -m venv venv
 source venv/bin/activate
-3. Install the required dependencies
+4. Install the required dependencies
    pip install -r requirements.txt
-4. Set up environment variables
+5. Set up environment variables
 
 Create a .env file in the root directory and add the following
 
